@@ -17,4 +17,4 @@
  * under the License.
  */
 
-asfMavenTlpPlgnBuild( os : ['linux', 'windows-2016-2', 'windows-2016-3'] )
+asfMavenTlpPlgnBuild( os : ['linux', 'windows-2013-3', 'windows-2016-1'] )
