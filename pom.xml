@@ -61,6 +61,15 @@ under the License.
       <url>scm:svn:https://svn.apache.org/repos/asf/maven/website/components/${maven.site.path}</url>
     </site>
   </distributionManagement>
+  
+  <repositories>
+    <repository>
+      <id>osshr</id>
+      <releases><enabled>false</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+      <url>https://oss.sonatype.org/content/repositories/plexus-snapshots</url>
+    </repository>
+  </repositories>
 
   <properties>
     <mavenVersion>3.0</mavenVersion>
@@ -129,7 +138,7 @@ under the License.
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
       <artifactId>plexus-java</artifactId>
-      <version>0.9.10</version>
+      <version>1.0.0-SNAPSHOT</version>
     </dependency>
 
     <dependency>

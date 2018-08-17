@@ -50,7 +50,7 @@ import org.codehaus.plexus.languages.java.jpms.JavaModuleDescriptor;
 import org.codehaus.plexus.languages.java.jpms.LocationManager;
 import org.codehaus.plexus.languages.java.jpms.ResolvePathsRequest;
 import org.codehaus.plexus.languages.java.jpms.ResolvePathsResult;
-import org.codehaus.plexus.languages.java.jpms.ResolvePathsResult.ModuleNameSource;
+import org.codehaus.plexus.languages.java.jpms.ModuleNameSource;
 
 /**
  * Compiles application sources
